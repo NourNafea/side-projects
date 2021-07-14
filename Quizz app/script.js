@@ -1,36 +1,28 @@
 const quizData = [
     {
-        question: "What is the most used programming language in 2019?",
-        a: "Java",
-        b: "C",
-        c: "Python",
-        d: "JavaScript",
-        correct: "d",
-    },
-    {
-        question: "Who is the President of US?",
-        a: "Florin Pop",
-        b: "Donald Trump",
-        c: "Ivan Saldano",
-        d: "Mihai Andrei",
-        correct: "b",
-    },
-    {
-        question: "What does HTML stand for?",
-        a: "Hypertext Markup Language",
-        b: "Cascading Style Sheet",
-        c: "Jason Object Notation",
-        d: "Helicopters Terminals Motorboats Lamborginis",
+        question: "Inside which HTML element do we put the JavaScript?",
+        a: "<script>",
+        b: "<javascript>",
+        c: "<js>",
+        d: "<scripting>",
         correct: "a",
     },
     {
-        question: "What year was JavaScript launched?",
-        a: "1996",
-        b: "1995",
-        c: "1994",
-        d: "none of the above",
-        correct: "b",
+        question: "What is the correct syntax for referring to an external script called 'xxx.js'?",
+        a: "<script href='xxx.js'>",
+        b: "<script name='xxx.js'>",
+        c: "<script src='xxx.js'>",
+        d: "<script file='xxx.js'>",
+        correct: "c",
     },
+    {
+        question: " How do you write 'Hello World' in an alert box?",
+        a: "msgBox('Hello World');",
+        b: "alertBox('Hello World');",
+        c: "msg('Hello World');",
+        d: "alert('Hello World');",
+        correct: "d",
+    }
 ];
 
 const quiz = document.getElementById("quiz");

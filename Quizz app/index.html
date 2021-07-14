@@ -5,52 +5,103 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Quiz App</title>
         <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
         <script src="script.js" defer></script>
     </head>
-    <body>
-        <div class="quiz-container" id="quiz">
-            <div class="quiz-header">
-                <h2 id="question">Question text</h2>
-                <ul>
-                    <li>
-                        <input
-                            type="radio"
-                            id="a"
-                            name="answer"
-                            class="answer"
-                        />
-                        <label id="a_text" for="a">Question</label>
-                    </li>
-                    <li>
-                        <input
-                            type="radio"
-                            id="b"
-                            name="answer"
-                            class="answer"
-                        />
-                        <label id="b_text" for="b">Question</label>
-                    </li>
-                    <li>
-                        <input
-                            type="radio"
-                            id="c"
-                            name="answer"
-                            class="answer"
-                        />
-                        <label id="c_text" for="c">Question</label>
-                    </li>
-                    <li>
-                        <input
-                            type="radio"
-                            id="d"
-                            name="answer"
-                            class="answer"
-                        />
-                        <label id="d_text" for="d">Question</label>
-                    </li>
-                </ul>
+    <body style="margin: 0px;">
+        <div class="mainbody">
+            <div class="quiz-container" id="quiz">
+                <div class="quiz-header">
+                    <h2 id="question">Question text</h2>
+                    <ul>
+                        <li>
+                            <input
+                                type="radio"
+                                id="a"
+                                name="answer"
+                                class="answer"
+                            />
+                            <label id="a_text" for="a">Question</label>
+                        </li>
+                        <li>
+                            <input
+                                type="radio"
+                                id="b"
+                                name="answer"
+                                class="answer"
+                            />
+                            <label id="b_text" for="b">Question</label>
+                        </li>
+                        <li>
+                            <input
+                                type="radio"
+                                id="c"
+                                name="answer"
+                                class="answer"
+                            />
+                            <label id="c_text" for="c">Question</label>
+                        </li>
+                        <li>
+                            <input
+                                type="radio"
+                                id="d"
+                                name="answer"
+                                class="answer"
+                            />
+                            <label id="d_text" for="d">Question</label>
+                        </li>
+                    </ul>
+                </div>
+                <button id="submit">Submit</button>
             </div>
-            <button id="submit">Submit</button>
         </div>
+        
+
+        <footer class="footer" id="footer">
+            
+            
+            <div class="section group">
+                <div class="col span_1_of_3">
+                    <a href="mailto:nour68.nafea@gmail.com" class="footer__link"><i class="fa fa-envelope"></i>  nour68.nafea@gmail.com</a>
+                </div>
+                <div class="col span_1_of_3">
+                    <a href="tel:+201008889982" class="footer__link"><i class="fa fa-phone icon-flipped" aria-hidden="true"></i>  +201008889982</a>
+                </div>
+                <div class="col span_1_of_3">
+                    <a href="https://goo.gl/maps/hPq4U1FxmdLEKAYF6" class="footer__link"><i class="fa fa-map-marker" aria-hidden="false"></i> Egypt - Cairo - Nasr City</a>
+                </div>
+            </div>
+    
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/nour-nafea-572234173/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/NourNafea">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.facebook.com/nour.eldien68/">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com/NoureldinNafea">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+            <p class="me">
+                Made by 
+                <a href="https://noureldien.me/"><strong>Nour Nafea.</strong></a>
+                
+                All Rights Reserved.
+            </p>
+        </footer>
     </body>
+    
 </html>
+
